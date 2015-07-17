@@ -1,0 +1,3 @@
+[submodule "Flux/rsscommon"]
+	path = Flux/rsscommon
+	url = https://github.com/packagesdev/rsscommon
