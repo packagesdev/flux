@@ -283,7 +283,7 @@ Gw
                             <slider verticalHuggingPriority="750" id="oVb-vD-Zcg">
                                 <rect key="frame" x="263" y="142" width="126" height="21"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <sliderCell key="cell" continuous="YES" alignment="left" maxValue="10" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="i7r-ws-A95">
+                                <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="i7r-ws-A95">
                                     <font key="font" size="12" name="Helvetica"/>
                                 </sliderCell>
                                 <connections>
@@ -302,7 +302,7 @@ Gw
                             <slider verticalHuggingPriority="750" id="gq6-aP-jvz">
                                 <rect key="frame" x="263" y="117" width="126" height="21"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="7FA-9w-mHo">
+                                <sliderCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="100" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="7FA-9w-mHo">
                                     <font key="font" size="12" name="Helvetica"/>
                                 </sliderCell>
                                 <connections>
@@ -367,7 +367,7 @@ Gw
                             <slider verticalHuggingPriority="750" id="5kZ-N0-1op">
                                 <rect key="frame" x="263" y="67" width="126" height="21"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="Dj9-ER-ANK">
+                                <sliderCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="10" doubleValue="10" tickMarkPosition="below" sliderType="linear" id="Dj9-ER-ANK">
                                     <font key="font" size="12" name="Helvetica"/>
                                 </sliderCell>
                                 <connections>
