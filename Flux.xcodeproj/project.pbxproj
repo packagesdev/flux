@@ -7,17 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F43A85911B5EFD5C00BBB2C0 /* insane_thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A858F1B5EFD5C00BBB2C0 /* insane_thumbnail.png */; };
+		F43A85921B5EFD5C00BBB2C0 /* insane_thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A85901B5EFD5C00BBB2C0 /* insane_thumbnail@2x.png */; };
+		F43A85951B5EFDEE00BBB2C0 /* regular_thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A85931B5EFDEE00BBB2C0 /* regular_thumbnail.png */; };
+		F43A85961B5EFDEE00BBB2C0 /* regular_thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A85941B5EFDEE00BBB2C0 /* regular_thumbnail@2x.png */; };
+		F43A85991B5EFEAE00BBB2C0 /* hypnotic_thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A85971B5EFEAE00BBB2C0 /* hypnotic_thumbnail.png */; };
+		F43A859A1B5EFEAE00BBB2C0 /* hypnotic_thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A85981B5EFEAE00BBB2C0 /* hypnotic_thumbnail@2x.png */; };
+		F43A859D1B5F004C00BBB2C0 /* sparklers_thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A859B1B5F004C00BBB2C0 /* sparklers_thumbnail.png */; };
+		F43A859E1B5F004C00BBB2C0 /* sparklers_thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A859C1B5F004C00BBB2C0 /* sparklers_thumbnail@2x.png */; };
+		F4A6A5A31B60515400456AFE /* paradigm_thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A6A5A11B60515400456AFE /* paradigm_thumbnail.png */; };
+		F4A6A5AB1B60535E00456AFE /* galactic_thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A6A5A91B60535E00456AFE /* galactic_thumbnail.png */; };
+		F4A6A5AC1B60535E00456AFE /* galactic_thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A6A5AA1B60535E00456AFE /* galactic_thumbnail@2x.png */; };
+		F4A6A5AF1B60536C00456AFE /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A6A5AD1B60536C00456AFE /* thumbnail.png */; };
+		F4A6A5B01B60536C00456AFE /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A6A5AE1B60536C00456AFE /* thumbnail@2x.png */; };
+		F4A6A5B41B60554A00456AFE /* paradigm_thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A6A5B31B60554A00456AFE /* paradigm_thumbnail@2x.png */; };
 		F4AD572F1B58E86500455F8D /* RSSFluxView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AD572E1B58E86500455F8D /* RSSFluxView.h */; };
-		F4AD57311B58E86500455F8D /* RSSFluxView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD57301B58E86500455F8D /* RSSFluxView.m */; };
+		F4AD57311B58E86500455F8D /* RSSFluxView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4AD57301B58E86500455F8D /* RSSFluxView.mm */; };
+		F4C395041B5DB4E300C4CE4D /* Rgbhsl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4C395021B5DB4E300C4CE4D /* Rgbhsl.cpp */; };
+		F4C395051B5DB4E300C4CE4D /* Rgbhsl.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C395031B5DB4E300C4CE4D /* Rgbhsl.h */; };
+		F4D58E751B59A064003FDC00 /* RSSAboutBoxWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58E721B59A064003FDC00 /* RSSAboutBoxWindowController.h */; };
+		F4D58E761B59A064003FDC00 /* RSSAboutBoxWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D58E731B59A064003FDC00 /* RSSAboutBoxWindowController.m */; };
+		F4D58E771B59A064003FDC00 /* RSSAboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D58E741B59A064003FDC00 /* RSSAboutBoxWindowController.xib */; };
+		F4D58E7A1B59A06F003FDC00 /* RSSSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58E781B59A06F003FDC00 /* RSSSettings.h */; };
+		F4D58E7B1B59A06F003FDC00 /* RSSSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D58E791B59A06F003FDC00 /* RSSSettings.m */; };
+		F4D58E7E1B59A076003FDC00 /* RSSWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58E7C1B59A076003FDC00 /* RSSWindow.h */; };
+		F4D58E7F1B59A076003FDC00 /* RSSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D58E7D1B59A076003FDC00 /* RSSWindow.m */; };
+		F4D58E821B59A07C003FDC00 /* RSSUserDefaults+Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58E801B59A07C003FDC00 /* RSSUserDefaults+Constants.h */; };
+		F4D58E831B59A07C003FDC00 /* RSSUserDefaults+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D58E811B59A07C003FDC00 /* RSSUserDefaults+Constants.m */; };
+		F4D58E861B59A085003FDC00 /* RSSConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58E841B59A085003FDC00 /* RSSConfigurationWindowController.h */; };
+		F4D58E871B59A085003FDC00 /* RSSConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D58E851B59A085003FDC00 /* RSSConfigurationWindowController.m */; };
+		F4D58E8A1B59A091003FDC00 /* RSSLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58E881B59A091003FDC00 /* RSSLightGrayBackgroundView.h */; };
+		F4D58E8B1B59A091003FDC00 /* RSSLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D58E891B59A091003FDC00 /* RSSLightGrayBackgroundView.m */; };
+		F4D58E8E1B59A096003FDC00 /* RSSSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58E8C1B59A096003FDC00 /* RSSSecondaryBox.h */; };
+		F4D58E8F1B59A096003FDC00 /* RSSSecondaryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D58E8D1B59A096003FDC00 /* RSSSecondaryBox.m */; };
+		F4D58E921B59A0A1003FDC00 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4D58E901B59A0A1003FDC00 /* Localizable.strings */; };
+		F4D58E991B59A0F3003FDC00 /* RSSFluxConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58E961B59A0F3003FDC00 /* RSSFluxConfigurationWindowController.h */; };
+		F4D58E9A1B59A0F3003FDC00 /* RSSFluxConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D58E971B59A0F3003FDC00 /* RSSFluxConfigurationWindowController.m */; };
+		F4D58E9E1B59A302003FDC00 /* RSSCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58E9C1B59A302003FDC00 /* RSSCollectionView.h */; };
+		F4D58E9F1B59A302003FDC00 /* RSSCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D58E9D1B59A302003FDC00 /* RSSCollectionView.m */; };
+		F4D58EA41B59A30B003FDC00 /* RSSCollectionViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58EA01B59A30B003FDC00 /* RSSCollectionViewItem.h */; };
+		F4D58EA51B59A30B003FDC00 /* RSSCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D58EA11B59A30B003FDC00 /* RSSCollectionViewItem.m */; };
+		F4D58EA61B59A30B003FDC00 /* RSSCollectionViewItemLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58EA21B59A30B003FDC00 /* RSSCollectionViewItemLabel.h */; };
+		F4D58EA71B59A30B003FDC00 /* RSSCollectionViewItemLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D58EA31B59A30B003FDC00 /* RSSCollectionViewItemLabel.m */; };
+		F4D58EA91B59A314003FDC00 /* RSSStandardSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D58EA81B59A314003FDC00 /* RSSStandardSettingsView.xib */; };
+		F4D58EBA1B59A481003FDC00 /* custom_thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D58EB61B59A481003FDC00 /* custom_thumbnail.png */; };
+		F4D58EBB1B59A481003FDC00 /* custom_thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D58EB71B59A481003FDC00 /* custom_thumbnail@2x.png */; };
+		F4D58EBC1B59A481003FDC00 /* random_thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D58EB81B59A481003FDC00 /* random_thumbnail.png */; };
+		F4D58EBD1B59A481003FDC00 /* random_thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D58EB91B59A481003FDC00 /* random_thumbnail@2x.png */; };
+		F4D58EBE1B59A4A8003FDC00 /* RSSFluxConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D58EC01B59A4A8003FDC00 /* RSSFluxConfigurationWindowController.xib */; };
+		F4D58EC31B59A4B5003FDC00 /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4D58EC11B59A4B5003FDC00 /* Localized.strings */; };
+		F4D58EC61B59A5B0003FDC00 /* Flux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4D58EC41B59A5B0003FDC00 /* Flux.cpp */; };
+		F4D58EC71B59A5B0003FDC00 /* Flux.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D58EC51B59A5B0003FDC00 /* Flux.h */; };
 		F4EFAC881B58E9BA001D537C /* RSSFluxSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EFAC861B58E9BA001D537C /* RSSFluxSettings.h */; };
 		F4EFAC891B58E9BA001D537C /* RSSFluxSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EFAC871B58E9BA001D537C /* RSSFluxSettings.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F4D58EAE1B59A416003FDC00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D58EAA1B59A416003FDC00 /* refafactor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F49477B31B15330700763450;
+			remoteInfo = refafactor;
+		};
+		F4D58EB01B59A41E003FDC00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D58EAA1B59A416003FDC00 /* refafactor.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F49477B21B15330700763450;
+			remoteInfo = refafactor;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		F43A858F1B5EFD5C00BBB2C0 /* insane_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = insane_thumbnail.png; path = images/insane_thumbnail.png; sourceTree = "<group>"; };
+		F43A85901B5EFD5C00BBB2C0 /* insane_thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "insane_thumbnail@2x.png"; path = "images/insane_thumbnail@2x.png"; sourceTree = "<group>"; };
+		F43A85931B5EFDEE00BBB2C0 /* regular_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = regular_thumbnail.png; path = images/regular_thumbnail.png; sourceTree = "<group>"; };
+		F43A85941B5EFDEE00BBB2C0 /* regular_thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "regular_thumbnail@2x.png"; path = "images/regular_thumbnail@2x.png"; sourceTree = "<group>"; };
+		F43A85971B5EFEAE00BBB2C0 /* hypnotic_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hypnotic_thumbnail.png; path = images/hypnotic_thumbnail.png; sourceTree = "<group>"; };
+		F43A85981B5EFEAE00BBB2C0 /* hypnotic_thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hypnotic_thumbnail@2x.png"; path = "images/hypnotic_thumbnail@2x.png"; sourceTree = "<group>"; };
+		F43A859B1B5F004C00BBB2C0 /* sparklers_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sparklers_thumbnail.png; path = images/sparklers_thumbnail.png; sourceTree = "<group>"; };
+		F43A859C1B5F004C00BBB2C0 /* sparklers_thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sparklers_thumbnail@2x.png"; path = "images/sparklers_thumbnail@2x.png"; sourceTree = "<group>"; };
+		F4A6A5A11B60515400456AFE /* paradigm_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paradigm_thumbnail.png; path = images/paradigm_thumbnail.png; sourceTree = "<group>"; };
+		F4A6A5A91B60535E00456AFE /* galactic_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galactic_thumbnail.png; path = images/galactic_thumbnail.png; sourceTree = "<group>"; };
+		F4A6A5AA1B60535E00456AFE /* galactic_thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "galactic_thumbnail@2x.png"; path = "images/galactic_thumbnail@2x.png"; sourceTree = "<group>"; };
+		F4A6A5AD1B60536C00456AFE /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = images/thumbnail.png; sourceTree = "<group>"; };
+		F4A6A5AE1B60536C00456AFE /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@2x.png"; path = "images/thumbnail@2x.png"; sourceTree = "<group>"; };
+		F4A6A5B31B60554A00456AFE /* paradigm_thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "paradigm_thumbnail@2x.png"; path = "images/paradigm_thumbnail@2x.png"; sourceTree = "<group>"; };
 		F4AD57291B58E86500455F8D /* Flux.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flux.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AD572D1B58E86500455F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4AD572E1B58E86500455F8D /* RSSFluxView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSFluxView.h; sourceTree = "<group>"; };
-		F4AD57301B58E86500455F8D /* RSSFluxView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSFluxView.m; sourceTree = "<group>"; };
+		F4AD57301B58E86500455F8D /* RSSFluxView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RSSFluxView.mm; sourceTree = "<group>"; };
+		F4C395021B5DB4E300C4CE4D /* Rgbhsl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rgbhsl.cpp; path = Flux/rsscommon/GPL/Rgbhsl/Rgbhsl.cpp; sourceTree = "<group>"; };
+		F4C395031B5DB4E300C4CE4D /* Rgbhsl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rgbhsl.h; path = Flux/rsscommon/GPL/Rgbhsl/Rgbhsl.h; sourceTree = "<group>"; };
+		F4D58E721B59A064003FDC00 /* RSSAboutBoxWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSAboutBoxWindowController.h; path = Flux/rsscommon/RSSAboutBoxWindowController.h; sourceTree = "<group>"; };
+		F4D58E731B59A064003FDC00 /* RSSAboutBoxWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSAboutBoxWindowController.m; path = Flux/rsscommon/RSSAboutBoxWindowController.m; sourceTree = "<group>"; };
+		F4D58E741B59A064003FDC00 /* RSSAboutBoxWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RSSAboutBoxWindowController.xib; path = Flux/rsscommon/RSSAboutBoxWindowController.xib; sourceTree = "<group>"; };
+		F4D58E781B59A06F003FDC00 /* RSSSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSSettings.h; path = Flux/rsscommon/RSSSettings.h; sourceTree = "<group>"; };
+		F4D58E791B59A06F003FDC00 /* RSSSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSSettings.m; path = Flux/rsscommon/RSSSettings.m; sourceTree = "<group>"; };
+		F4D58E7C1B59A076003FDC00 /* RSSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSWindow.h; path = Flux/rsscommon/RSSWindow.h; sourceTree = "<group>"; };
+		F4D58E7D1B59A076003FDC00 /* RSSWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSWindow.m; path = Flux/rsscommon/RSSWindow.m; sourceTree = "<group>"; };
+		F4D58E801B59A07C003FDC00 /* RSSUserDefaults+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RSSUserDefaults+Constants.h"; path = "Flux/rsscommon/RSSUserDefaults+Constants.h"; sourceTree = "<group>"; };
+		F4D58E811B59A07C003FDC00 /* RSSUserDefaults+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RSSUserDefaults+Constants.m"; path = "Flux/rsscommon/RSSUserDefaults+Constants.m"; sourceTree = "<group>"; };
+		F4D58E841B59A085003FDC00 /* RSSConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSConfigurationWindowController.h; path = Flux/rsscommon/RSSConfigurationWindowController.h; sourceTree = "<group>"; };
+		F4D58E851B59A085003FDC00 /* RSSConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSConfigurationWindowController.m; path = Flux/rsscommon/RSSConfigurationWindowController.m; sourceTree = "<group>"; };
+		F4D58E881B59A091003FDC00 /* RSSLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSLightGrayBackgroundView.h; path = Flux/rsscommon/RSSLightGrayBackgroundView.h; sourceTree = "<group>"; };
+		F4D58E891B59A091003FDC00 /* RSSLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSLightGrayBackgroundView.m; path = Flux/rsscommon/RSSLightGrayBackgroundView.m; sourceTree = "<group>"; };
+		F4D58E8C1B59A096003FDC00 /* RSSSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSSecondaryBox.h; path = Flux/rsscommon/RSSSecondaryBox.h; sourceTree = "<group>"; };
+		F4D58E8D1B59A096003FDC00 /* RSSSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSSecondaryBox.m; path = Flux/rsscommon/RSSSecondaryBox.m; sourceTree = "<group>"; };
+		F4D58E911B59A0A1003FDC00 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = Flux/rsscommon/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4D58E961B59A0F3003FDC00 /* RSSFluxConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFluxConfigurationWindowController.h; sourceTree = "<group>"; };
+		F4D58E971B59A0F3003FDC00 /* RSSFluxConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFluxConfigurationWindowController.m; sourceTree = "<group>"; };
+		F4D58E9C1B59A302003FDC00 /* RSSCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSCollectionView.h; path = Flux/rsscommon/RSSCollectionView.h; sourceTree = "<group>"; };
+		F4D58E9D1B59A302003FDC00 /* RSSCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSCollectionView.m; path = Flux/rsscommon/RSSCollectionView.m; sourceTree = "<group>"; };
+		F4D58EA01B59A30B003FDC00 /* RSSCollectionViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSCollectionViewItem.h; path = Flux/rsscommon/RSSCollectionViewItem.h; sourceTree = "<group>"; };
+		F4D58EA11B59A30B003FDC00 /* RSSCollectionViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSCollectionViewItem.m; path = Flux/rsscommon/RSSCollectionViewItem.m; sourceTree = "<group>"; };
+		F4D58EA21B59A30B003FDC00 /* RSSCollectionViewItemLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSCollectionViewItemLabel.h; path = Flux/rsscommon/RSSCollectionViewItemLabel.h; sourceTree = "<group>"; };
+		F4D58EA31B59A30B003FDC00 /* RSSCollectionViewItemLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSCollectionViewItemLabel.m; path = Flux/rsscommon/RSSCollectionViewItemLabel.m; sourceTree = "<group>"; };
+		F4D58EA81B59A314003FDC00 /* RSSStandardSettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RSSStandardSettingsView.xib; path = Flux/rsscommon/RSSStandardSettingsView.xib; sourceTree = "<group>"; };
+		F4D58EAA1B59A416003FDC00 /* refafactor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = refafactor.xcodeproj; path = Flux/rsscommon/refafactor/refafactor.xcodeproj; sourceTree = "<group>"; };
+		F4D58EB61B59A481003FDC00 /* custom_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = custom_thumbnail.png; path = Flux/rsscommon/CreativeCommons/custom_thumbnail.png; sourceTree = "<group>"; };
+		F4D58EB71B59A481003FDC00 /* custom_thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "custom_thumbnail@2x.png"; path = "Flux/rsscommon/CreativeCommons/custom_thumbnail@2x.png"; sourceTree = "<group>"; };
+		F4D58EB81B59A481003FDC00 /* random_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = random_thumbnail.png; path = Flux/rsscommon/CreativeCommons/random_thumbnail.png; sourceTree = "<group>"; };
+		F4D58EB91B59A481003FDC00 /* random_thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "random_thumbnail@2x.png"; path = "Flux/rsscommon/CreativeCommons/random_thumbnail@2x.png"; sourceTree = "<group>"; };
+		F4D58EBF1B59A4A8003FDC00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSSFluxConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F4D58EC21B59A4B5003FDC00 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localized.strings; sourceTree = "<group>"; };
+		F4D58EC41B59A5B0003FDC00 /* Flux.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Flux.cpp; path = GPL/Flux.cpp; sourceTree = "<group>"; };
+		F4D58EC51B59A5B0003FDC00 /* Flux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flux.h; path = GPL/Flux.h; sourceTree = "<group>"; };
 		F4EFAC861B58E9BA001D537C /* RSSFluxSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFluxSettings.h; sourceTree = "<group>"; };
 		F4EFAC871B58E9BA001D537C /* RSSFluxSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFluxSettings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,10 +149,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4A6A5B11B60537000456AFE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F4A6A5AD1B60536C00456AFE /* thumbnail.png */,
+				F4A6A5AE1B60536C00456AFE /* thumbnail@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		F4AD571F1B58E86500455F8D = {
 			isa = PBXGroup;
 			children = (
-				F4EFAC8A1B58E9D5001D537C /* rsscommon */,
+				F4D58EAA1B59A416003FDC00 /* refafactor.xcodeproj */,
 				F4AD572B1B58E86500455F8D /* Flux */,
 				F4AD572A1B58E86500455F8D /* Products */,
 			);
@@ -53,10 +178,13 @@
 		F4AD572B1B58E86500455F8D /* Flux */ = {
 			isa = PBXGroup;
 			children = (
+				F4EFAC8A1B58E9D5001D537C /* rsscommon */,
+				F4D58E931B59A0BA003FDC00 /* GPL */,
 				F4EFAC861B58E9BA001D537C /* RSSFluxSettings.h */,
 				F4EFAC871B58E9BA001D537C /* RSSFluxSettings.m */,
 				F4AD572E1B58E86500455F8D /* RSSFluxView.h */,
-				F4AD57301B58E86500455F8D /* RSSFluxView.m */,
+				F4AD57301B58E86500455F8D /* RSSFluxView.mm */,
+				F4D58E941B59A0C5003FDC00 /* Configuration */,
 				F4AD572C1B58E86500455F8D /* Supporting Files */,
 			);
 			path = Flux;
@@ -66,15 +194,126 @@
 			isa = PBXGroup;
 			children = (
 				F4AD572D1B58E86500455F8D /* Info.plist */,
+				F4A6A5B11B60537000456AFE /* images */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4C395001B5DB4CC00C4CE4D /* GPL */ = {
+			isa = PBXGroup;
+			children = (
+				F4C395011B5DB4D200C4CE4D /* Rgbhsl */,
+			);
+			name = GPL;
+			sourceTree = "<group>";
+		};
+		F4C395011B5DB4D200C4CE4D /* Rgbhsl */ = {
+			isa = PBXGroup;
+			children = (
+				F4C395031B5DB4E300C4CE4D /* Rgbhsl.h */,
+				F4C395021B5DB4E300C4CE4D /* Rgbhsl.cpp */,
+			);
+			name = Rgbhsl;
+			sourceTree = "<group>";
+		};
+		F4D58E711B59A058003FDC00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4D58EA81B59A314003FDC00 /* RSSStandardSettingsView.xib */,
+				F4D58E741B59A064003FDC00 /* RSSAboutBoxWindowController.xib */,
+				F4D58E901B59A0A1003FDC00 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4D58E931B59A0BA003FDC00 /* GPL */ = {
+			isa = PBXGroup;
+			children = (
+				F4D58EC51B59A5B0003FDC00 /* Flux.h */,
+				F4D58EC41B59A5B0003FDC00 /* Flux.cpp */,
+			);
+			name = GPL;
+			sourceTree = "<group>";
+		};
+		F4D58E941B59A0C5003FDC00 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F4D58E961B59A0F3003FDC00 /* RSSFluxConfigurationWindowController.h */,
+				F4D58E971B59A0F3003FDC00 /* RSSFluxConfigurationWindowController.m */,
+				F4D58EC11B59A4B5003FDC00 /* Localized.strings */,
+				F4D58EC01B59A4A8003FDC00 /* RSSFluxConfigurationWindowController.xib */,
+				F4D58E951B59A0CE003FDC00 /* images */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		F4D58E951B59A0CE003FDC00 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F43A85931B5EFDEE00BBB2C0 /* regular_thumbnail.png */,
+				F43A85941B5EFDEE00BBB2C0 /* regular_thumbnail@2x.png */,
+				F43A85971B5EFEAE00BBB2C0 /* hypnotic_thumbnail.png */,
+				F43A85981B5EFEAE00BBB2C0 /* hypnotic_thumbnail@2x.png */,
+				F43A858F1B5EFD5C00BBB2C0 /* insane_thumbnail.png */,
+				F43A85901B5EFD5C00BBB2C0 /* insane_thumbnail@2x.png */,
+				F43A859B1B5F004C00BBB2C0 /* sparklers_thumbnail.png */,
+				F43A859C1B5F004C00BBB2C0 /* sparklers_thumbnail@2x.png */,
+				F4A6A5A11B60515400456AFE /* paradigm_thumbnail.png */,
+				F4A6A5B31B60554A00456AFE /* paradigm_thumbnail@2x.png */,
+				F4A6A5A91B60535E00456AFE /* galactic_thumbnail.png */,
+				F4A6A5AA1B60535E00456AFE /* galactic_thumbnail@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F4D58EAB1B59A416003FDC00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D58EAF1B59A416003FDC00 /* refafactor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D58EB51B59A472003FDC00 /* CommonCreatives */ = {
+			isa = PBXGroup;
+			children = (
+				F4D58EB61B59A481003FDC00 /* custom_thumbnail.png */,
+				F4D58EB71B59A481003FDC00 /* custom_thumbnail@2x.png */,
+				F4C395001B5DB4CC00C4CE4D /* GPL */,
+				F4D58EB81B59A481003FDC00 /* random_thumbnail.png */,
+				F4D58EB91B59A481003FDC00 /* random_thumbnail@2x.png */,
+			);
+			name = CommonCreatives;
 			sourceTree = "<group>";
 		};
 		F4EFAC8A1B58E9D5001D537C /* rsscommon */ = {
 			isa = PBXGroup;
 			children = (
+				F4D58E781B59A06F003FDC00 /* RSSSettings.h */,
+				F4D58E791B59A06F003FDC00 /* RSSSettings.m */,
+				F4D58E7C1B59A076003FDC00 /* RSSWindow.h */,
+				F4D58E7D1B59A076003FDC00 /* RSSWindow.m */,
+				F4D58E801B59A07C003FDC00 /* RSSUserDefaults+Constants.h */,
+				F4D58E811B59A07C003FDC00 /* RSSUserDefaults+Constants.m */,
+				F4D58E841B59A085003FDC00 /* RSSConfigurationWindowController.h */,
+				F4D58E851B59A085003FDC00 /* RSSConfigurationWindowController.m */,
+				F4D58E721B59A064003FDC00 /* RSSAboutBoxWindowController.h */,
+				F4D58E731B59A064003FDC00 /* RSSAboutBoxWindowController.m */,
+				F4D58E881B59A091003FDC00 /* RSSLightGrayBackgroundView.h */,
+				F4D58E891B59A091003FDC00 /* RSSLightGrayBackgroundView.m */,
+				F4D58E8C1B59A096003FDC00 /* RSSSecondaryBox.h */,
+				F4D58E8D1B59A096003FDC00 /* RSSSecondaryBox.m */,
+				F4D58E9C1B59A302003FDC00 /* RSSCollectionView.h */,
+				F4D58E9D1B59A302003FDC00 /* RSSCollectionView.m */,
+				F4D58EA01B59A30B003FDC00 /* RSSCollectionViewItem.h */,
+				F4D58EA11B59A30B003FDC00 /* RSSCollectionViewItem.m */,
+				F4D58EA21B59A30B003FDC00 /* RSSCollectionViewItemLabel.h */,
+				F4D58EA31B59A30B003FDC00 /* RSSCollectionViewItemLabel.m */,
+				F4D58EB51B59A472003FDC00 /* CommonCreatives */,
+				F4D58E711B59A058003FDC00 /* Resources */,
 			);
 			name = rsscommon;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,8 +323,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D58E8A1B59A091003FDC00 /* RSSLightGrayBackgroundView.h in Headers */,
+				F4D58EC71B59A5B0003FDC00 /* Flux.h in Headers */,
+				F4D58E7A1B59A06F003FDC00 /* RSSSettings.h in Headers */,
 				F4AD572F1B58E86500455F8D /* RSSFluxView.h in Headers */,
+				F4D58E7E1B59A076003FDC00 /* RSSWindow.h in Headers */,
+				F4C395051B5DB4E300C4CE4D /* Rgbhsl.h in Headers */,
 				F4EFAC881B58E9BA001D537C /* RSSFluxSettings.h in Headers */,
+				F4D58E9E1B59A302003FDC00 /* RSSCollectionView.h in Headers */,
+				F4D58E861B59A085003FDC00 /* RSSConfigurationWindowController.h in Headers */,
+				F4D58EA41B59A30B003FDC00 /* RSSCollectionViewItem.h in Headers */,
+				F4D58E8E1B59A096003FDC00 /* RSSSecondaryBox.h in Headers */,
+				F4D58E821B59A07C003FDC00 /* RSSUserDefaults+Constants.h in Headers */,
+				F4D58EA61B59A30B003FDC00 /* RSSCollectionViewItemLabel.h in Headers */,
+				F4D58E751B59A064003FDC00 /* RSSAboutBoxWindowController.h in Headers */,
+				F4D58E991B59A0F3003FDC00 /* RSSFluxConfigurationWindowController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,10 +352,12 @@
 				F4AD57251B58E86500455F8D /* Frameworks */,
 				F4AD57261B58E86500455F8D /* Headers */,
 				F4AD57271B58E86500455F8D /* Resources */,
+				F4D58EB21B59A421003FDC00 /* Run Script */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F4D58EB11B59A41E003FDC00 /* PBXTargetDependency */,
 			);
 			name = Flux;
 			productName = Flux;
@@ -133,6 +387,12 @@
 			mainGroup = F4AD571F1B58E86500455F8D;
 			productRefGroup = F4AD572A1B58E86500455F8D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F4D58EAB1B59A416003FDC00 /* Products */;
+					ProjectRef = F4D58EAA1B59A416003FDC00 /* refafactor.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F4AD57281B58E86500455F8D /* Flux */,
@@ -140,27 +400,125 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F4D58EAF1B59A416003FDC00 /* refafactor */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = refafactor;
+			remoteRef = F4D58EAE1B59A416003FDC00 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F4AD57271B58E86500455F8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43A859E1B5F004C00BBB2C0 /* sparklers_thumbnail@2x.png in Resources */,
+				F4D58EBD1B59A481003FDC00 /* random_thumbnail@2x.png in Resources */,
+				F4A6A5AF1B60536C00456AFE /* thumbnail.png in Resources */,
+				F4D58EBB1B59A481003FDC00 /* custom_thumbnail@2x.png in Resources */,
+				F43A85921B5EFD5C00BBB2C0 /* insane_thumbnail@2x.png in Resources */,
+				F43A85911B5EFD5C00BBB2C0 /* insane_thumbnail.png in Resources */,
+				F43A859D1B5F004C00BBB2C0 /* sparklers_thumbnail.png in Resources */,
+				F4D58E771B59A064003FDC00 /* RSSAboutBoxWindowController.xib in Resources */,
+				F4A6A5B41B60554A00456AFE /* paradigm_thumbnail@2x.png in Resources */,
+				F4D58EA91B59A314003FDC00 /* RSSStandardSettingsView.xib in Resources */,
+				F43A859A1B5EFEAE00BBB2C0 /* hypnotic_thumbnail@2x.png in Resources */,
+				F43A85991B5EFEAE00BBB2C0 /* hypnotic_thumbnail.png in Resources */,
+				F4D58EBC1B59A481003FDC00 /* random_thumbnail.png in Resources */,
+				F4A6A5AB1B60535E00456AFE /* galactic_thumbnail.png in Resources */,
+				F4D58EBE1B59A4A8003FDC00 /* RSSFluxConfigurationWindowController.xib in Resources */,
+				F4D58EC31B59A4B5003FDC00 /* Localized.strings in Resources */,
+				F43A85961B5EFDEE00BBB2C0 /* regular_thumbnail@2x.png in Resources */,
+				F43A85951B5EFDEE00BBB2C0 /* regular_thumbnail.png in Resources */,
+				F4A6A5AC1B60535E00456AFE /* galactic_thumbnail@2x.png in Resources */,
+				F4A6A5A31B60515400456AFE /* paradigm_thumbnail.png in Resources */,
+				F4D58EBA1B59A481003FDC00 /* custom_thumbnail.png in Resources */,
+				F4D58E921B59A0A1003FDC00 /* Localizable.strings in Resources */,
+				F4A6A5B01B60536C00456AFE /* thumbnail@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4D58EB21B59A421003FDC00 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#Refactor the rsscommon class to avoid warning or issues when multiple RSS screen savers are installed.\n\n\"${TARGET_BUILD_DIR}\"/refafactor --bundle \"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\" --prefix FLU\n\nexit 0";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4AD57241B58E86500455F8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D58E8F1B59A096003FDC00 /* RSSSecondaryBox.m in Sources */,
+				F4C395041B5DB4E300C4CE4D /* Rgbhsl.cpp in Sources */,
 				F4EFAC891B58E9BA001D537C /* RSSFluxSettings.m in Sources */,
-				F4AD57311B58E86500455F8D /* RSSFluxView.m in Sources */,
+				F4D58EC61B59A5B0003FDC00 /* Flux.cpp in Sources */,
+				F4D58E871B59A085003FDC00 /* RSSConfigurationWindowController.m in Sources */,
+				F4D58E831B59A07C003FDC00 /* RSSUserDefaults+Constants.m in Sources */,
+				F4D58EA71B59A30B003FDC00 /* RSSCollectionViewItemLabel.m in Sources */,
+				F4D58EA51B59A30B003FDC00 /* RSSCollectionViewItem.m in Sources */,
+				F4D58E9A1B59A0F3003FDC00 /* RSSFluxConfigurationWindowController.m in Sources */,
+				F4D58E7B1B59A06F003FDC00 /* RSSSettings.m in Sources */,
+				F4D58E7F1B59A076003FDC00 /* RSSWindow.m in Sources */,
+				F4D58E9F1B59A302003FDC00 /* RSSCollectionView.m in Sources */,
+				F4D58E8B1B59A091003FDC00 /* RSSLightGrayBackgroundView.m in Sources */,
+				F4AD57311B58E86500455F8D /* RSSFluxView.mm in Sources */,
+				F4D58E761B59A064003FDC00 /* RSSAboutBoxWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4D58EB11B59A41E003FDC00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = refafactor;
+			targetProxy = F4D58EB01B59A41E003FDC00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4D58E901B59A0A1003FDC00 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D58E911B59A0A1003FDC00 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F4D58EC01B59A4A8003FDC00 /* RSSFluxConfigurationWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D58EBF1B59A4A8003FDC00 /* en */,
+			);
+			name = RSSFluxConfigurationWindowController.xib;
+			sourceTree = "<group>";
+		};
+		F4D58EC11B59A4B5003FDC00 /* Localized.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D58EC21B59A4B5003FDC00 /* en */,
+			);
+			name = Localized.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F4AD57321B58E86500455F8D /* Debug */ = {
