@@ -83,35 +83,24 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <button id="Mpg-lL-cpn">
-                                <rect key="frame" x="263" y="14" width="141" height="18"/>
+                                <rect key="frame" x="263" y="14" width="184" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Main display only" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="ZaA-5d-v2v">
+                                <buttonCell key="cell" type="check" title="メインディスプレイのみ" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="ZaA-5d-v2v">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="HiraKakuProN-W3"/>
                                 </buttonCell>
                             </button>
                             <textField verticalHuggingPriority="750" id="ywt-Vg-UcA">
-                                <rect key="frame" x="171" y="15" width="87" height="17"/>
+                                <rect key="frame" x="152" y="15" width="106" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Displays:" id="hDq-u8-JEg">
-                                    <font key="font" metaFont="systemBold"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="ディスプレイ：" id="hDq-u8-JEg">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                         </subviews>
                     </customView>
-                    <button verticalHuggingPriority="750" id="FGw-RA-bw6">
-                        <rect key="frame" x="14" y="13" width="91" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="About…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1Ww-hx-8BF">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="showAboutBox:" target="-2" id="bmo-rz-HtT"/>
-                        </connections>
-                    </button>
                     <button verticalHuggingPriority="750" tag="1" id="K1k-LH-oeI">
                         <rect key="frame" x="427" y="13" width="84" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -127,11 +116,11 @@ DQ
                         </connections>
                     </button>
                     <button verticalHuggingPriority="750" id="ugO-7k-Lpl">
-                        <rect key="frame" x="345" y="13" width="82" height="32"/>
+                        <rect key="frame" x="322" y="13" width="105" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="eVl-1i-TMl">
+                        <buttonCell key="cell" type="push" title="キャンセル" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="eVl-1i-TMl">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" size="13" name="HiraKakuProN-W3"/>
                             <string key="keyEquivalent" base64-UTF8="YES">
 Gw
 </string>
@@ -145,9 +134,9 @@ Gw
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" id="zk6-bB-vjK">
-                                <rect key="frame" x="52" y="71" width="206" height="17"/>
+                                <rect key="frame" x="78" y="71" width="180" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Number of particles per field:" id="fX7-0z-TZ8">
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="1フィールド内の粒子の数：" id="fX7-0z-TZ8">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -156,7 +145,7 @@ Gw
                             <textField verticalHuggingPriority="750" id="Z9O-RU-I8a">
                                 <rect key="frame" x="104" y="96" width="154" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Number of flux fields:" id="4SB-AE-d2d">
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Flux フィールドの数：" id="4SB-AE-d2d">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -202,10 +191,10 @@ Gw
                                 </connections>
                             </slider>
                             <textField verticalHuggingPriority="750" id="wjs-Cz-bzw">
-                                <rect key="frame" x="154" y="46" width="104" height="17"/>
+                                <rect key="frame" x="147" y="46" width="111" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Particle size:" id="6Z9-1f-LuL">
-                                    <font key="font" metaFont="systemBold"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="粒子のサイズ：" id="6Z9-1f-LuL">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -229,15 +218,6 @@ Gw
                                     <action selector="setParticleSTrailLength:" target="-2" id="GrT-Qa-Qj0"/>
                                 </connections>
                             </slider>
-                            <textField verticalHuggingPriority="750" id="6Tq-M9-FsC">
-                                <rect key="frame" x="116" y="21" width="142" height="17"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Particle trail length:" id="6h0-31-FoC">
-                                    <font key="font" metaFont="systemBold"/>
-                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="hwV-cB-lf8">
                                 <rect key="frame" x="396" y="70" width="40" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -256,21 +236,21 @@ Gw
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <textField verticalHuggingPriority="750" id="6Tq-M9-FsC">
+                                <rect key="frame" x="159" y="21" width="99" height="17"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="残像の長さ：" id="6h0-31-FoC">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                     </customView>
                     <customView id="KRj-hc-Zno" customClass="RSSLightGrayBackgroundView">
                         <rect key="frame" x="0.0" y="108" width="527" height="182"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" id="oyQ-Wo-GcU">
-                                <rect key="frame" x="55" y="145" width="203" height="17"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Frequency of randomization:" id="Qt9-b6-wA7">
-                                    <font key="font" metaFont="systemBold"/>
-                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="INh-kz-4G9">
                                 <rect key="frame" x="396" y="119" width="40" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -310,10 +290,10 @@ Gw
                                 </connections>
                             </slider>
                             <textField verticalHuggingPriority="750" id="Wx5-zl-Qng">
-                                <rect key="frame" x="160" y="120" width="98" height="17"/>
+                                <rect key="frame" x="172" y="120" width="86" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Rotation rate:" id="KbF-u8-jJl">
-                                    <font key="font" metaFont="systemBold"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="回転速度：" id="KbF-u8-jJl">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -338,19 +318,19 @@ Gw
                                 </connections>
                             </slider>
                             <textField verticalHuggingPriority="750" id="ENO-pa-ncQ">
-                                <rect key="frame" x="141" y="95" width="117" height="17"/>
+                                <rect key="frame" x="184" y="95" width="74" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Expansion rate:" id="aGT-Dn-CVq">
-                                    <font key="font" metaFont="systemBold"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="拡大率：" id="aGT-Dn-CVq">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" id="xW9-lZ-GJs">
-                                <rect key="frame" x="121" y="70" width="137" height="17"/>
+                                <rect key="frame" x="162" y="70" width="96" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Crosswind speed:" id="hVy-hF-vC9">
-                                    <font key="font" metaFont="systemBold"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="横風の早さ：" id="hVy-hF-vC9">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -394,10 +374,10 @@ Gw
                                 </connections>
                             </slider>
                             <textField verticalHuggingPriority="750" id="ATD-93-o1t">
-                                <rect key="frame" x="172" y="45" width="86" height="17"/>
+                                <rect key="frame" x="189" y="45" width="69" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Instability:" id="1uq-I9-nhV">
-                                    <font key="font" metaFont="systemBold"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="更新率：" id="1uq-I9-nhV">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -422,10 +402,19 @@ Gw
                                 </connections>
                             </slider>
                             <textField verticalHuggingPriority="750" id="w8r-4M-Mef">
-                                <rect key="frame" x="160" y="20" width="98" height="17"/>
+                                <rect key="frame" x="111" y="20" width="147" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Motion blur:" id="rTK-iq-iia">
-                                    <font key="font" metaFont="systemBold"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="モーション・ブラー：" id="rTK-iq-iia">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="oyQ-Wo-GcU">
+                                <rect key="frame" x="133" y="145" width="125" height="17"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="ランダム頻度数：" id="Qt9-b6-wA7">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -447,19 +436,19 @@ Gw
                                 </connections>
                             </slider>
                             <textField verticalHuggingPriority="750" id="dVW-8m-lIg">
-                                <rect key="frame" x="116" y="20" width="142" height="17"/>
+                                <rect key="frame" x="149" y="20" width="109" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Sphere complexity:" id="8zL-9o-eHm">
-                                    <font key="font" metaFont="systemBold"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="球体の細かさ：" id="8zL-9o-eHm">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" id="AvU-1d-znk">
-                                <rect key="frame" x="121" y="51" width="137" height="17"/>
+                                <rect key="frame" x="155" y="51" width="103" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Type of geometry:" id="1co-wr-xZK">
-                                    <font key="font" metaFont="systemBold"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="幾何学種類：" id="1co-wr-xZK">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -467,14 +456,14 @@ Gw
                             <popUpButton verticalHuggingPriority="750" id="con-UU-aPU">
                                 <rect key="frame" x="262" y="45" width="130" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <popUpButtonCell key="cell" type="push" title="Points" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="qml-MZ-xmX" id="DvZ-0M-iMw">
+                                <popUpButtonCell key="cell" type="push" title="点" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="qml-MZ-xmX" id="DvZ-0M-iMw">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
                                     <menu key="menu" id="AI4-3b-9SF">
                                         <items>
-                                            <menuItem title="Points" state="on" id="qml-MZ-xmX"/>
-                                            <menuItem title="Spheres" tag="1" id="qob-mS-BI7"/>
-                                            <menuItem title="Lights" tag="2" id="bt5-2h-MWy"/>
+                                            <menuItem title="点" state="on" id="qml-MZ-xmX"/>
+                                            <menuItem title="球体" tag="1" id="qob-mS-BI7"/>
+                                            <menuItem title="光" tag="2" id="bt5-2h-MWy"/>
                                         </items>
                                     </menu>
                                 </popUpButtonCell>
@@ -493,6 +482,17 @@ Gw
                             </textField>
                         </subviews>
                     </customView>
+                    <button verticalHuggingPriority="750" id="FGw-RA-bw6">
+                        <rect key="frame" x="14" y="13" width="104" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="について..." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1Ww-hx-8BF">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" size="13" name="HiraKakuProN-W3"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showAboutBox:" target="-2" id="bmo-rz-HtT"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
             <connections>
