@@ -94,6 +94,9 @@
 		F46D3BB21B61802F00626481 /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localized.strings; sourceTree = "<group>"; };
 		F46D3BB31B61802F00626481 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/RSSFluxConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F46D3BB41B61803900626481 /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = Flux/rsscommon/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F46D3BB51B61832600626481 /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localized.strings; sourceTree = "<group>"; };
+		F46D3BB61B61832600626481 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/RSSFluxConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F46D3BB71B61833200626481 /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = Flux/rsscommon/de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4A6A5A11B60515400456AFE /* paradigm_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paradigm_thumbnail.png; path = images/paradigm_thumbnail.png; sourceTree = "<group>"; };
 		F4A6A5A91B60535E00456AFE /* galactic_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galactic_thumbnail.png; path = images/galactic_thumbnail.png; sourceTree = "<group>"; };
 		F4A6A5AA1B60535E00456AFE /* galactic_thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "galactic_thumbnail@2x.png"; path = "images/galactic_thumbnail@2x.png"; sourceTree = "<group>"; };
@@ -391,6 +394,7 @@
 				en,
 				fr,
 				ja,
+				de,
 			);
 			mainGroup = F4AD571F1B58E86500455F8D;
 			productRefGroup = F4AD572A1B58E86500455F8D /* Products */;
@@ -508,6 +512,7 @@
 				F4D58E911B59A0A1003FDC00 /* en */,
 				F46D3BB01B617D6400626481 /* fr */,
 				F46D3BB41B61803900626481 /* ja */,
+				F46D3BB71B61833200626481 /* de */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -518,6 +523,7 @@
 				F4D58EBF1B59A4A8003FDC00 /* en */,
 				F46D3BAF1B617D4A00626481 /* fr */,
 				F46D3BB31B61802F00626481 /* ja */,
+				F46D3BB61B61832600626481 /* de */,
 			);
 			name = RSSFluxConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -528,6 +534,7 @@
 				F4D58EC21B59A4B5003FDC00 /* en */,
 				F46D3BAE1B617D4A00626481 /* fr */,
 				F46D3BB21B61802F00626481 /* ja */,
+				F46D3BB51B61832600626481 /* de */,
 			);
 			name = Localized.strings;
 			sourceTree = "<group>";
