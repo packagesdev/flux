@@ -154,6 +154,8 @@
 
 - (void)restoreUI
 {
+	NSString * tFormattedString;
+	
 	[super restoreUI];
 	
 	RSSFluxSettings * tFluxSettings=(RSSFluxSettings *) sceneSettings;
@@ -165,13 +167,17 @@
 	[_numberOfFluxFieldsLabel setIntegerValue:tFluxSettings.numberOFluxFields];
 	
 	[_numberOfParticlesPerFluxSlider setIntegerValue:tFluxSettings.numberOfParticlesPerFluxField];
-	[_numberOfParticlesPerFluxLabel setIntegerValue:tFluxSettings.numberOfParticlesPerFluxField];
+	tFormattedString=[_numberFormatter stringFromNumber:[NSNumber numberWithUnsignedInteger:tFluxSettings.numberOfParticlesPerFluxField]];
+	[_numberOfParticlesPerFluxLabel setStringValue:tFormattedString];
+	
 	
 	[_particleSizeSlider setIntegerValue:tFluxSettings.particleSize];
 	[_particleSizeLabel setIntegerValue:tFluxSettings.particleSize];
 	
 	[_particleTrailLengthSlider setIntegerValue:tFluxSettings.particleTrailLength];
-	[_particleTrailLengthLabel setIntegerValue:tFluxSettings.particleTrailLength];
+	tFormattedString=[_numberFormatter stringFromNumber:[NSNumber numberWithUnsignedInteger:tFluxSettings.particleTrailLength]];
+	[_particleTrailLengthLabel setStringValue:tFormattedString];
+	
 	
 	
 	[_geometryTypePopupButton selectItemWithTag:tFluxSettings.geometryType];
