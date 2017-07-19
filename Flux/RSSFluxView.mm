@@ -110,14 +110,14 @@
 		
 		if (tShowErrorMessage==YES)
 		{
-			NSRect tFrame=[self frame];
+			NSRect tFrame=self.frame;
 			
 			NSMutableParagraphStyle * tMutableParagraphStyle=[[NSParagraphStyle defaultParagraphStyle] mutableCopy];
 			[tMutableParagraphStyle setAlignment:NSCenterTextAlignment];
 			
-			NSDictionary * tAttributes = [NSDictionary dictionaryWithObjectsAndKeys:[NSFont systemFontOfSize:[NSFont systemFontSize]],NSFontAttributeName,
-										  [NSColor whiteColor],NSForegroundColorAttributeName,
-										  tMutableParagraphStyle,NSParagraphStyleAttributeName,nil];
+			NSDictionary * tAttributes = @{NSFontAttributeName:[NSFont systemFontOfSize:[NSFont systemFontSize]],
+										   NSForegroundColorAttributeName:[NSColor whiteColor],
+										   NSParagraphStyleAttributeName:tMutableParagraphStyle};
 			
 			
 			NSString * tString=NSLocalizedStringFromTableInBundle(@"Minimum OpenGL requirements\rfor this Screen Effect\rnot available\ron your graphic card.",@"Localizable",[NSBundle bundleForClass:[self class]],@"No comment");
@@ -167,7 +167,14 @@
 		_OpenGLIncompatibilityDetected=YES;
 		return;
 	}
-	_openGLView = [[NSOpenGLView alloc] initWithFrame:[self bounds] pixelFormat:tFormat];
+	
+	if (_openGLView!=nil)
+	{
+		[_openGLView removeFromSuperview];
+		_openGLView=nil;
+	}
+	
+	_openGLView = [[NSOpenGLView alloc] initWithFrame:self.bounds pixelFormat:tFormat];
 	
 	if (_openGLView!=nil)
 	{
@@ -181,16 +188,9 @@
 		return;
 	}
 	
-	[self lockFocus];
-	
 	[[_openGLView openGLContext] makeCurrentContext];
 	
-	glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
-	glClear(GL_COLOR_BUFFER_BIT);
-	
-	[[_openGLView openGLContext] flushBuffer];
-	
-	NSRect tPixelBounds=[_openGLView convertRectToBacking:[_openGLView bounds]];
+	NSRect tPixelBounds=[_openGLView convertRectToBacking:_openGLView.bounds];
 	NSSize tSize=tPixelBounds.size;
 	
 	_scene=new scene();
@@ -206,8 +206,6 @@
 	
 	const GLint tSwapInterval=1;
 	CGLSetParameter(CGLGetCurrentContext(), kCGLCPSwapInterval,&tSwapInterval);
-	
-	[self unlockFocus];
 }
 
 - (void)stopAnimation
@@ -227,12 +225,8 @@
 	{
 		[[_openGLView openGLContext] makeCurrentContext];
 		
-		glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
-		
 		if (_scene!=NULL)
 			_scene->draw();
-		
-		glFinish();
 		
 		[[_openGLView openGLContext] flushBuffer];
 	}
