@@ -20,6 +20,8 @@ class scene
 {
 	private:
 	
+		int _first2Frames;
+	
 		flux *_fluxes;
 	
 		unsigned char _lightTexture[LIGHTSIZE][LIGHTSIZE];

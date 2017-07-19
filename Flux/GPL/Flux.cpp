@@ -49,6 +49,8 @@ static float myRandf(float x)
 
 scene::scene()
 {
+	_first2Frames=2;
+	
 	srand((unsigned)time(NULL));
 	rand(); rand(); rand(); rand(); rand();
 	rand(); rand(); rand(); rand(); rand();
@@ -211,7 +213,17 @@ void scene::draw()
 	glLoadIdentity();
 	
 	if(motionBlur)
-	{  // partially
+	{
+		if (_first2Frames>0)
+		{
+			_first2Frames--;
+			
+			glClear(GL_COLOR_BUFFER_BIT);
+			
+			return;
+		}
+		
+		// partially
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 		glEnable(GL_BLEND);
 		glDisable(GL_DEPTH_TEST);
