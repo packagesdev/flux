@@ -244,7 +244,7 @@
 	
 	if (tFluxSettings.geometryType!=RSSFluxGeometryTypeSpheres)
 	{
-		[_sphereGeometryComplexityLeftLabel setTextColor:[NSColor grayColor]];
+		[_sphereGeometryComplexityLeftLabel setTextColor:[NSColor secondaryLabelColor]];
 		
 		[_sphereGeometryComplexitySlider setEnabled:NO];
 		
@@ -252,7 +252,7 @@
 	}
 	else
 	{
-		[_sphereGeometryComplexityLeftLabel setTextColor:[NSColor blackColor]];
+		[_sphereGeometryComplexityLeftLabel setTextColor:[NSColor labelColor]];
 		
 		[_sphereGeometryComplexitySlider setEnabled:YES];
 		
